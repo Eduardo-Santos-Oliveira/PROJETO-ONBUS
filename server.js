@@ -10,13 +10,13 @@ const cors = require('cors');
 const { Pool } = require('pg');
 const app = express();
 const PORT = 3000;
+const SECRET_KEY = 'minha_chave_super_secreta'; // ou qualquer string segura
 require('dotenv').config();
 app.use(cors());
 app.use(express.json());
 app.use(express.static('public'));
 const pool = new Pool({
-  connectionString: process.env.DATABASE_URL,
-  ssl: process.env.DATABASE_SSL === 'true' ? { rejectUnauthorized: false } : false
+  connectionString: process.env.DATABASE_URL
 });
 
 module.exports = pool;
