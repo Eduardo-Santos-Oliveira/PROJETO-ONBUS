@@ -77,9 +77,23 @@ O script `raspador_smtu_completo.py` acessa os dados da SMTU para coletar inform
 
 ## 📸 Capturas de Tela
 
-<img src="./path/to/screenshot1.png" width="400"/>
-<img src="./path/to/screenshot2.png" width="400"/>
-<img src="./path/to/screenshot3.png" width="400"/>
+![Image](https://github.com/user-attachments/assets/cebab595-9adb-4969-bbd0-a90b312ad626)
+![Image](https://github.com/user-attachments/assets/ed356cb2-59a1-4b68-b443-fd55a5d7f2ef)
+![Image](https://github.com/user-attachments/assets/b8bf841d-85bd-45c2-bed9-8eb1b61b5cc0)
+![Image](https://github.com/user-attachments/assets/48bf0564-a949-4b26-8a7d-a48ddaabb9f6)
+![Image](https://github.com/user-attachments/assets/9d66634f-db52-443a-ad98-9db71c18e541)
+![Image](https://github.com/user-attachments/assets/d59b315c-0781-46a8-915b-cea67220486c)
+![Image](https://github.com/user-attachments/assets/9e694e4e-0d4f-4b08-8436-d6448443cdd4)
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/425b625a-921e-4a06-9195-61ba7c0cd074" width="300px" />
+  <img src="https://github.com/user-attachments/assets/97ab31f5-4a9d-431f-9419-faa65568bdea" width="300px" />
+  <img src="https://github.com/user-attachments/assets/f3b9a449-a4d3-402b-9648-c30d5bdcf34c" width="300px" />
+  <img src="https://github.com/user-attachments/assets/abb1c59c-e2a4-4c9d-a40b-f8c030010c11" width="300px" />
+  <img src="https://github.com/user-attachments/assets/78d608f1-85f7-4c4d-b600-e1c04afd0b63" width="300px" />
+  <img src="https://github.com/user-attachments/assets/689ac63d-256e-4d34-8cde-ff6ecd2a5727" width="300px" />
+</div>
+
 
 
 
