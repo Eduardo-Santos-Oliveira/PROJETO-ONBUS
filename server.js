@@ -275,12 +275,14 @@ app.post('/api/auth/register', async (req, res) => {
       user: result.rows[0]
     });
   } catch (error) {
-    console.error('Erro no registro:', error.message);
-    console.error(error.stack);
-    res.status(500).json({
-      success: false,
-      error: error.message  // isso envia a mensagem exata do erro pro navegador
+  console.error('Erro no registro:', error.message);
+  console.error(error.stack);
+  res.status(500).json({
+    success: false,
+    error: error.message
   });
+}
+
   
 
 });
@@ -331,12 +333,14 @@ app.post('/api/auth/login', async (req, res) => {
       }
     });
   } catch (error) {
-    console.error('Erro no login:', error.message);
-    console.error(error.stack);
-    res.status(500).json({
-      success: false,
-      error: error.message
+  console.error('Erro no login:', error.message);
+  console.error(error.stack);
+  res.status(500).json({
+    success: false,
+    error: error.message
   });
+}
+
   
 
 });
