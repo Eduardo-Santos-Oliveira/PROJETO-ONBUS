@@ -281,7 +281,7 @@ app.post('/api/auth/register', async (req, res) => {
       success: false,
       error: error.message  // isso envia a mensagem exata do erro pro navegador
   });
-  }
+  
 
 });
 
@@ -337,6 +337,6 @@ app.post('/api/auth/login', async (req, res) => {
       success: false,
       error: error.message
   });
-  }
+  
 
 });
