@@ -1,0 +1,738 @@
+[
+  {
+    "nome": "A095 Forquilha / Terminal Cohab",
+    "url": "https://transitrun.com/pt/public-transit-line_A095+FORQUILHA+%2F+TERMINAL+COHAB_31327"
+  },
+  {
+    "nome": "A306 Luiz Bacelar / Argola e Tambor / Terminal Praia Grande",
+    "url": "https://transitrun.com/pt/public-transit-line_A306+LUIZ+BACELAR+%2F+ARGOLA+E+TAMBOR+%2F+TERMINAL+PRAIA+GRANDE_31328"
+  },
+  {
+    "nome": "A311 Campus / Terminal Praia Grande",
+    "url": "https://transitrun.com/pt/public-transit-line_A311+CAMPUS+%2F+TERMINAL+PRAIA+GRANDE_31329"
+  },
+  {
+    "nome": "A313 Tamancão / Terminal Praia Grande",
+    "url": "https://transitrun.com/pt/public-transit-line_A313+TAMANC%C3%83O+%2F+TERMINAL+PRAIA+GRANDE_31330"
+  },
+  {
+    "nome": "A316 Vila São Luís / Terminal Praia Grande",
+    "url": "https://transitrun.com/pt/public-transit-line_A316+VILA+S%C3%83O+LU%C3%8DS+%2F+TERMINAL+PRAIA+GRANDE_31331"
+  },
+  {
+    "nome": "A321 Sá Viana / Terminal Praia Grande",
+    "url": "https://transitrun.com/pt/public-transit-line_A321+S%C3%81+VIANA+%2F+TERMINAL+PRAIA+GRANDE_31332"
+  },
+  {
+    "nome": "A327 Residencial Piancó / Terminal Praia Grande",
+    "url": "https://transitrun.com/pt/public-transit-line_A327+RESIDENCIAL+PIANC%C3%93+%2F+TERMINAL+PRAIA+GRANDE_31333"
+  },
+  {
+    "nome": "A328 Residencial Paraíso / Direto Terminal",
+    "url": "https://transitrun.com/pt/public-transit-line_A328+RESIDENCIAL+PARA%C3%8DSO+%2F+DIRETO+TERMINAL_31334"
+  },
+  {
+    "nome": "A331 Arraial / Terminal Distrito",
+    "url": "https://transitrun.com/pt/public-transit-line_A331+ARRAIAL+%2F+TERMINAL+DISTRITO_31335"
+  },
+  {
+    "nome": "A332 Itapera / Terminal Distrito",
+    "url": "https://transitrun.com/pt/public-transit-line_A332+ITAPERA+%2F+TERMINAL+DISTRITO_31336"
+  },
+  {
+    "nome": "A333 Igaraú / Terminal Distrito",
+    "url": "https://transitrun.com/pt/public-transit-line_A333+IGARA%C3%9A+%2F+TERMINAL+DISTRITO_31337"
+  },
+  {
+    "nome": "A334 Estiva / Terminal Distrito",
+    "url": "https://transitrun.com/pt/public-transit-line_A334+ESTIVA+%2F+TERMINAL+DISTRITO_31338"
+  },
+  {
+    "nome": "A335 Rio Grande / Terminal Distrito",
+    "url": "https://transitrun.com/pt/public-transit-line_A335+RIO+GRANDE+%2F+TERMINAL+DISTRITO_31339"
+  },
+  {
+    "nome": "A336 Vila Maracujá / Terminal Distrito",
+    "url": "https://transitrun.com/pt/public-transit-line_A336+VILA+MARACUJ%C3%81+%2F+TERMINAL+DISTRITO_31340"
+  },
+  {
+    "nome": "A338 Coqueiro / Terminal Distrito",
+    "url": "https://transitrun.com/pt/public-transit-line_A338+COQUEIRO+%2F+TERMINAL+DISTRITO_31341"
+  },
+  {
+    "nome": "A339 Tinaí / Cinturão Verde / Terminal Distrito",
+    "url": "https://transitrun.com/pt/public-transit-line_A339+TINA%C3%8D+%2F+CINTUR%C3%83O+VERDE+%2F+TERMINAL+DISTRITO_31342"
+  },
+  {
+    "nome": "A341 Santo Antônio / Amendoeiras / Terminal Distrito",
+    "url": "https://transitrun.com/pt/public-transit-line_A341+SANTO+ANT%C3%94NIO+%2F+AMENDOEIRAS+%2F+TERMINAL+DISTRITO_31343"
+  },
+  {
+    "nome": "A342 Quebra Pote / Terminal Distrito",
+    "url": "https://transitrun.com/pt/public-transit-line_A342+QUEBRA+POTE+%2F+TERMINAL+DISTRITO_31344"
+  },
+  {
+    "nome": "A350 Residencial Ribeira / Terminal Distrito",
+    "url": "https://transitrun.com/pt/public-transit-line_A350+RESIDENCIAL+RIBEIRA+%2F+TERMINAL+DISTRITO_31345"
+  },
+  {
+    "nome": "A401 Península / Terminal Praia Grande",
+    "url": "https://transitrun.com/pt/public-transit-line_A401+PEN%C3%8DNSULA+%2F+TERMINAL+PRAIA+GRANDE_31346"
+  },
+  {
+    "nome": "A409 Península / Terminal Cohama",
+    "url": "https://transitrun.com/pt/public-transit-line_A409+PEN%C3%8DNSULA+%2F+TERMINAL+COHAMA_31347"
+  },
+  {
+    "nome": "A552 Residencial Primavera / Terminal Cohama",
+    "url": "https://transitrun.com/pt/public-transit-line_A552+RESIDENCIAL+PRIMAVERA+%2F+TERMINAL+COHAMA_31348"
+  },
+  {
+    "nome": "A553 Recanto Fialho / Terminal Cohama",
+    "url": "https://transitrun.com/pt/public-transit-line_A553+RECANTO+FIALHO+%2F+TERMINAL+COHAMA_31349"
+  },
+  {
+    "nome": "A554 Pedra Caída / Terminal Cohama",
+    "url": "https://transitrun.com/pt/public-transit-line_A554+PEDRA+CA%C3%8DDA+%2F+TERMINAL+COHAMA_31350"
+  },
+  {
+    "nome": "A555 Recanto Vinhais / Terminal Cohama",
+    "url": "https://transitrun.com/pt/public-transit-line_A555+RECANTO+VINHAIS+%2F+TERMINAL+COHAMA_31351"
+  },
+  {
+    "nome": "A557 Aririzal / Terminal Cohama",
+    "url": "https://transitrun.com/pt/public-transit-line_A557+ARIRIZAL+%2F+TERMINAL+COHAMA_31352"
+  },
+  {
+    "nome": "A558 Vivendas do Turu / Terminal Cohama",
+    "url": "https://transitrun.com/pt/public-transit-line_A558+VIVENDAS+DO+TURU+%2F+TERMINAL+COHAMA_31353"
+  },
+  {
+    "nome": "A559 Divineia / Mário Andreazza / Terminal Cohama",
+    "url": "https://transitrun.com/pt/public-transit-line_A559+DIVINEIA+%2F+M%C3%81RIO+ANDREAZZA+%2F+TERMINAL+COHAMA_31354"
+  },
+  {
+    "nome": "A580 Turu / Terminal Cohama",
+    "url": "https://transitrun.com/pt/public-transit-line_A580+TURU+%2F+TERMINAL+COHAMA_31355"
+  },
+  {
+    "nome": "A582 Alto do Turu / Terminal Cohama",
+    "url": "https://transitrun.com/pt/public-transit-line_A582+ALTO+DO+TURU+%2F+TERMINAL+COHAMA_31356"
+  },
+  {
+    "nome": "A585 Parque Jair / Terminal Cohama",
+    "url": "https://transitrun.com/pt/public-transit-line_A585+PARQUE+JAIR+%2F+TERMINAL+COHAMA_31357"
+  },
+  {
+    "nome": "A601 Coroadinho / Terminal Praia Grande",
+    "url": "https://transitrun.com/pt/public-transit-line_A601+COROADINHO+%2F+TERMINAL+PRAIA+GRANDE_31358"
+  },
+  {
+    "nome": "A615 Primavera / Bom Jesus / Terminal Praia Grande",
+    "url": "https://transitrun.com/pt/public-transit-line_A615+PRIMAVERA+%2F+BOM+JESUS+%2F+TERMINAL+PRAIA+GRANDE_31359"
+  },
+  {
+    "nome": "A661 Janaína / Terminal São Cristóvão",
+    "url": "https://transitrun.com/pt/public-transit-line_A661+JANA%C3%8DNA+%2F+TERMINAL+S%C3%83O+CRIST%C3%93V%C3%83O_31360"
+  },
+  {
+    "nome": "A663 Vila Cascavel / Terminal São Cristóvão",
+    "url": "https://transitrun.com/pt/public-transit-line_A663+VILA+CASCAVEL+%2F+TERMINAL+S%C3%83O+CRIST%C3%93V%C3%83O_31361"
+  },
+  {
+    "nome": "A664 J. Lima / Terminal São Cristóvão / Terminal Cohab",
+    "url": "https://transitrun.com/pt/public-transit-line_A664+J.+LIMA+%2F+TERMINAL+S%C3%83O+CRIST%C3%93V%C3%83O+%2F+TERMINAL+COHAB_31362"
+  },
+  {
+    "nome": "A665 Kiola / Terminal São Cristóvão / Terminal Cohab",
+    "url": "https://transitrun.com/pt/public-transit-line_A665+KIOLA+%2F+TERMINAL+S%C3%83O+CRIST%C3%93V%C3%83O+%2F+TERMINAL+COHAB_31363"
+  },
+  {
+    "nome": "A666 Cidade Olímpica / Terminal São Cristóvão",
+    "url": "https://transitrun.com/pt/public-transit-line_A666+CIDADE+OL%C3%8DMPICA+%2F+TERMINAL+S%C3%83O+CRIST%C3%93V%C3%83O_31364"
+  },
+  {
+    "nome": "A667 Parque dos Sabiás / Terminal São Cristóvão",
+    "url": "https://transitrun.com/pt/public-transit-line_A667+PARQUE+DOS+SABI%C3%81S+%2F+TERMINAL+S%C3%83O+CRIST%C3%93V%C3%83O_31365"
+  },
+  {
+    "nome": "A669 Alexandra Tavares / Terminal São Cristóvão",
+    "url": "https://transitrun.com/pt/public-transit-line_A669+ALEXANDRA+TAVARES+%2F+TERMINAL+S%C3%83O+CRIST%C3%93V%C3%83O_31366"
+  },
+  {
+    "nome": "A671 Tibiri / Terminal São Cristóvão",
+    "url": "https://transitrun.com/pt/public-transit-line_A671+TIBIRI+%2F+TERMINAL+S%C3%83O+CRIST%C3%93V%C3%83O_31367"
+  },
+  {
+    "nome": "A673 Recanto Verde / Terminal Cohab",
+    "url": "https://transitrun.com/pt/public-transit-line_A673+RECANTO+VERDE+%2F+TERMINAL+COHAB_31368"
+  },
+  {
+    "nome": "A674 Cajupe / Terminal São Cristóvão",
+    "url": "https://transitrun.com/pt/public-transit-line_A674+CAJUPE+%2F+TERMINAL+S%C3%83O+CRIST%C3%93V%C3%83O_31369"
+  },
+  {
+    "nome": "A676 Santa Bárbara / Terminal São Cristóvão",
+    "url": "https://transitrun.com/pt/public-transit-line_A676+SANTA+B%C3%81RBARA+%2F+TERMINAL+S%C3%83O+CRIST%C3%93V%C3%83O_31370"
+  },
+  {
+    "nome": "A677 Mato Grosso / Tajipuru / Terminal São Cristóvão",
+    "url": "https://transitrun.com/pt/public-transit-line_A677+MATO+GROSSO+%2F+TAJIPURU+%2F+TERMINAL+S%C3%83O+CRIST%C3%93V%C3%83O_31371"
+  },
+  {
+    "nome": "A679 Tajaçuaba / Terminal São Cristóvão via Santa Bárbara",
+    "url": "https://transitrun.com/pt/public-transit-line_A679+TAJA%C3%87UABA+%2F+TERMINAL+S%C3%83O+CRIST%C3%93V%C3%83O+VIA+SANTA+B%C3%81RBARA_31372"
+  },
+  {
+    "nome": "A681 Cajupary / Residencial Nova Vida / Terminal São Cristóvão",
+    "url": "https://transitrun.com/pt/public-transit-line_A681+CAJUPARY+%2F+RESIDENCIAL+NOVA+VIDA+%2F+TERMINAL+S%C3%83O+CRIST%C3%93V%C3%83O_31373"
+  },
+  {
+    "nome": "A682 Vila Vitória / Terminal São Cristóvão",
+    "url": "https://transitrun.com/pt/public-transit-line_A682+VILA+VIT%C3%93RIA+%2F+TERMINAL+S%C3%83O+CRIST%C3%93V%C3%83O_31374"
+  },
+  {
+    "nome": "A684 Santa Clara / Terminal São Cristóvão",
+    "url": "https://transitrun.com/pt/public-transit-line_A684+SANTA+CLARA+%2F+TERMINAL+S%C3%83O+CRIST%C3%93V%C3%83O_31375"
+  },
+  {
+    "nome": "A685 Residencial Nestor / Terminal São Cristóvão",
+    "url": "https://transitrun.com/pt/public-transit-line_A685+RESIDENCIAL+NESTOR+%2F+TERMINAL+S%C3%83O+CRIST%C3%93V%C3%83O_31376"
+  },
+  {
+    "nome": "A688 Residencial Tiradentes / Terminal São Cristóvão",
+    "url": "https://transitrun.com/pt/public-transit-line_A688+RESIDENCIAL+TIRADENTES+%2F+TERMINAL+S%C3%83O+CRIST%C3%93V%C3%83O_31377"
+  },
+  {
+    "nome": "A692 Ivaldo Rodrigues / Terminal São Cristóvão",
+    "url": "https://transitrun.com/pt/public-transit-line_A692+IVALDO+RODRIGUES+%2F+TERMINAL+S%C3%83O+CRIST%C3%93V%C3%83O_31378"
+  },
+  {
+    "nome": "A694 Jasmins / Eco Tajaçuaba / Terminal São Cristóvão",
+    "url": "https://transitrun.com/pt/public-transit-line_A694+JASMINS+%2F+ECO+TAJA%C3%87UABA+%2F+TERMINAL+S%C3%83O+CRIST%C3%93V%C3%83O_31379"
+  },
+  {
+    "nome": "A696 Vila Esperança / Terminal São Cristóvão / Terminal Cohab",
+    "url": "https://transitrun.com/pt/public-transit-line_A696+VILA+ESPERAN%C3%87A+%2F+TERMINAL+S%C3%83O+CRIST%C3%93V%C3%83O+%2F+TERMINAL+COHAB_31380"
+  },
+  {
+    "nome": "A699 Vila Aparecida / Terminal São Cristóvão / Terminal Cohab",
+    "url": "https://transitrun.com/pt/public-transit-line_A699+VILA+APARECIDA+%2F+TERMINAL+S%C3%83O+CRIST%C3%93V%C3%83O+%2F+TERMINAL+COHAB_31381"
+  },
+  {
+    "nome": "A711 Vila Luizão / Terminal Cohama",
+    "url": "https://transitrun.com/pt/public-transit-line_A711+VILA+LUIZ%C3%83O+%2F+TERMINAL+COHAMA_31382"
+  },
+  {
+    "nome": "A881 Parque Vitória / Terminal Cohab",
+    "url": "https://transitrun.com/pt/public-transit-line_A881+PARQUE+VIT%C3%93RIA+%2F+TERMINAL+COHAB_31383"
+  },
+  {
+    "nome": "A883 Alto do Turu / Terminal Cohab",
+    "url": "https://transitrun.com/pt/public-transit-line_A883+ALTO+DO+TURU+%2F+TERMINAL+COHAB_31384"
+  },
+  {
+    "nome": "A886 Habitacional Turu / Terminal Cohab",
+    "url": "https://transitrun.com/pt/public-transit-line_A886+HABITACIONAL+TURU+%2F+TERMINAL+COHAB_31385"
+  },
+  {
+    "nome": "A887 Parque Jair / Estrada da Maioba / Terminal Cohab",
+    "url": "https://transitrun.com/pt/public-transit-line_A887+PARQUE+JAIR+%2F+ESTRADA+DA+MAIOBA+%2F+TERMINAL+COHAB_31386"
+  },
+  {
+    "nome": "A891 Isabel Cafeteira / Aurora / Terminal Cohab",
+    "url": "https://transitrun.com/pt/public-transit-line_A891+ISABEL+CAFETEIRA+%2F+AURORA+%2F+TERMINAL+COHAB_31387"
+  },
+  {
+    "nome": "A893 Vila Luizão / Terminal Cohab",
+    "url": "https://transitrun.com/pt/public-transit-line_A893+VILA+LUIZ%C3%83O+%2F+TERMINAL+COHAB_31388"
+  },
+  {
+    "nome": "A895 Alonso Costa / Parque Araçagy / Terminal Cohab",
+    "url": "https://transitrun.com/pt/public-transit-line_A895+ALONSO+COSTA+%2F+PARQUE+ARA%C3%87AGY+%2F+TERMINAL+COHAB_31389"
+  },
+  {
+    "nome": "A896 Bom Jardim / Terminal Cohab",
+    "url": "https://transitrun.com/pt/public-transit-line_A896+BOM+JARDIM+%2F+TERMINAL+COHAB_31390"
+  },
+  {
+    "nome": "A897 Ipem Turu / Terminal Cohab",
+    "url": "https://transitrun.com/pt/public-transit-line_A897+IPEM+TURU+%2F+TERMINAL+COHAB_31391"
+  },
+  {
+    "nome": "A976 Araçagy / Terminal Cohab",
+    "url": "https://transitrun.com/pt/public-transit-line_A976+ARA%C3%87AGY+%2F+TERMINAL+COHAB_31392"
+  },
+  {
+    "nome": "A977 Residencial Pirâmide / Terminal Cohab",
+    "url": "https://transitrun.com/pt/public-transit-line_A977+RESIDENCIAL+PIR%C3%82MIDE+%2F+TERMINAL+COHAB_31393"
+  },
+  {
+    "nome": "C080 Rodoviária / São Francisco",
+    "url": "https://transitrun.com/pt/public-transit-line_C080+RODOVI%C3%81RIA+%2F+S%C3%83O+FRANCISCO_31394"
+  },
+  {
+    "nome": "C087 Circular 1 / Cohatrac / São Francisco / João Paulo",
+    "url": "https://transitrun.com/pt/public-transit-line_C087+CIRCULAR+1+%2F+COHATRAC+%2F+S%C3%83O+FRANCISCO+%2F+JO%C3%83O+PAULO_31395"
+  },
+  {
+    "nome": "C088 Circular 2 / Cohatrac / João Paulo / São Francisco",
+    "url": "https://transitrun.com/pt/public-transit-line_C088+CIRCULAR+2+%2F+COHATRAC+%2F+JO%C3%83O+PAULO+%2F+S%C3%83O+FRANCISCO_31396"
+  },
+  {
+    "nome": "T005 Pedrinhas / Terminal Praia Grande",
+    "url": "https://transitrun.com/pt/public-transit-line_T005+PEDRINHAS+%2F+TERMINAL+PRAIA+GRANDE_31397"
+  },
+  {
+    "nome": "T012 Vila Nova República / Rodoviária",
+    "url": "https://transitrun.com/pt/public-transit-line_T012+VILA+NOVA+REP%C3%9ABLICA+%2F+RODOVI%C3%81RIA_31398"
+  },
+  {
+    "nome": "T015 Porto Grande / Terminal Praia Grande",
+    "url": "https://transitrun.com/pt/public-transit-line_T015+PORTO+GRANDE+%2F+TERMINAL+PRAIA+GRANDE_31399"
+  },
+  {
+    "nome": "T016 Vila Maranhão / Terminal Praia Grande",
+    "url": "https://transitrun.com/pt/public-transit-line_T016+VILA+MARANH%C3%83O+%2F+TERMINAL+PRAIA+GRANDE_31400"
+  },
+  {
+    "nome": "T019 Cajueiro / Terminal Praia Grande",
+    "url": "https://transitrun.com/pt/public-transit-line_T019+CAJUEIRO+%2F+TERMINAL+PRAIA+GRANDE_31401"
+  },
+  {
+    "nome": "T020 Vila Itamar / Terminal Praia Grande",
+    "url": "https://transitrun.com/pt/public-transit-line_T020+VILA+ITAMAR+%2F+TERMINAL+PRAIA+GRANDE_31402"
+  },
+  {
+    "nome": "T023 Vila Funil / Bandeira Tribuzi",
+    "url": "https://transitrun.com/pt/public-transit-line_T023+VILA+FUNIL+%2F+BANDEIRA+TRIBUZI_31403"
+  },
+  {
+    "nome": "T028 Rio dos Cachorros / Terminal Praia Grande",
+    "url": "https://transitrun.com/pt/public-transit-line_T028+RIO+DOS+CACHORROS+%2F+TERMINAL+PRAIA+GRANDE_31404"
+  },
+  {
+    "nome": "T031 Estiva / Mercado Central",
+    "url": "https://transitrun.com/pt/public-transit-line_T031+ESTIVA+%2F+MERCADO+CENTRAL_31405"
+  },
+  {
+    "nome": "T032 Coqueiro / Mercado Central",
+    "url": "https://transitrun.com/pt/public-transit-line_T032+COQUEIRO+%2F+MERCADO+CENTRAL_31406"
+  },
+  {
+    "nome": "T033 Morada do Sol / Amendoeiras / Terminal Praia Grande",
+    "url": "https://transitrun.com/pt/public-transit-line_T033+MORADA+DO+SOL+%2F+AMENDOEIRAS+%2F+TERMINAL+PRAIA+GRANDE_31407"
+  },
+  {
+    "nome": "T034 Quebra Pote / João Paulo",
+    "url": "https://transitrun.com/pt/public-transit-line_T034+QUEBRA+POTE+%2F+JO%C3%83O+PAULO_31408"
+  },
+  {
+    "nome": "T035 Ribeira / Ipase / Deodoro",
+    "url": "https://transitrun.com/pt/public-transit-line_T035+RIBEIRA+%2F+IPASE+%2F+DEODORO_31409"
+  },
+  {
+    "nome": "T036 Maracanã / Terminal Praia Grande via Terminal Distrito",
+    "url": "https://transitrun.com/pt/public-transit-line_T036+MARACAN%C3%83+%2F+TERMINAL+PRAIA+GRANDE+VIA+TERMINAL+DISTRITO_31410"
+  },
+  {
+    "nome": "T037 Vila Sarney / Rodoviária",
+    "url": "https://transitrun.com/pt/public-transit-line_T037+VILA+SARNEY+%2F+RODOVI%C3%81RIA_31411"
+  },
+  {
+    "nome": "T038 Ribeira / Rodoviária / São Francisco",
+    "url": "https://transitrun.com/pt/public-transit-line_T038+RIBEIRA+%2F+RODOVI%C3%81RIA+%2F+S%C3%83O+FRANCISCO_31412"
+  },
+  {
+    "nome": "T039 Vila Sarney / Africanos",
+    "url": "https://transitrun.com/pt/public-transit-line_T039+VILA+SARNEY+%2F+AFRICANOS_31413"
+  },
+  {
+    "nome": "T042 Cidade Olímpica - Av. 2 / São Francisco",
+    "url": "https://transitrun.com/pt/public-transit-line_T042+CIDADE+OL%C3%8DMPICA_31414"
+  },
+  {
+    "nome": "T043 Cidade Operária 101 / São Francisco",
+    "url": "https://transitrun.com/pt/public-transit-line_T043+CIDADE+OPER%C3%81RIA+101+%2F+S%C3%83O+FRANCISCO_31415"
+  },
+  {
+    "nome": "T047 Cidade Olímpica - Av. 2 / Ipase",
+    "url": "https://transitrun.com/pt/public-transit-line_T047+CIDADE+OL%C3%8DMPICA_31416"
+  },
+  {
+    "nome": "T049 Cidade Olímpica - Av. 2 / Rodoviária",
+    "url": "https://transitrun.com/pt/public-transit-line_T049+CIDADE+OL%C3%8DMPICA_31417"
+  },
+  {
+    "nome": "T051 Cohama / São Cristóvão / Holandeses",
+    "url": "https://transitrun.com/pt/public-transit-line_T051+COHAMA+%2F+S%C3%83O+CRIST%C3%93V%C3%83O+%2F+HOLANDESES_31418"
+  },
+  {
+    "nome": "T052 Cohama",
+    "url": "https://transitrun.com/pt/public-transit-line_T052+COHAMA_31419"
+  },
+  {
+    "nome": "T053 Vinhais / Ipase",
+    "url": "https://transitrun.com/pt/public-transit-line_T053+VINHAIS+%2F+IPASE_31420"
+  },
+  {
+    "nome": "T054 Vicente Fialho",
+    "url": "https://transitrun.com/pt/public-transit-line_T054+VICENTE+FIALHO_31421"
+  },
+  {
+    "nome": "T055 Parque Vitória / Bandeira Tribuzi / São Francisco",
+    "url": "https://transitrun.com/pt/public-transit-line_T055+PARQUE+VIT%C3%93RIA+%2F+BANDEIRA+TRIBUZI+%2F+S%C3%83O+FRANCISCO_31422"
+  },
+  {
+    "nome": "T056 Santa Rosa / São Francisco",
+    "url": "https://transitrun.com/pt/public-transit-line_T056+SANTA+ROSA+%2F+S%C3%83O+FRANCISCO_31423"
+  },
+  {
+    "nome": "T057 Bequimão / Ipase",
+    "url": "https://transitrun.com/pt/public-transit-line_T057+BEQUIM%C3%83O+%2F+IPASE_31424"
+  },
+  {
+    "nome": "T058 Bequimão / São Francisco",
+    "url": "https://transitrun.com/pt/public-transit-line_T058+BEQUIM%C3%83O+%2F+S%C3%83O+FRANCISCO_31425"
+  },
+  {
+    "nome": "T059 Divineia / Shopping São Luís",
+    "url": "https://transitrun.com/pt/public-transit-line_T059+DIVINEIA+%2F+SHOPPING+S%C3%83O+LU%C3%8DS_31426"
+  },
+  {
+    "nome": "T060 São Bernardo / João de Deus",
+    "url": "https://transitrun.com/pt/public-transit-line_T060+S%C3%83O+BERNARDO+%2F+JO%C3%83O+DE+DEUS_31427"
+  },
+  {
+    "nome": "T061 Santa Clara / João Paulo",
+    "url": "https://transitrun.com/pt/public-transit-line_T061+SANTA+CLARA+%2F+JO%C3%83O+PAULO_31428"
+  },
+  {
+    "nome": "T062 Socorrão 2 / Rodoviária",
+    "url": "https://transitrun.com/pt/public-transit-line_T062+SOCORR%C3%83O+2+%2F+RODOVI%C3%81RIA_31429"
+  },
+  {
+    "nome": "T065 São Raimundo / Bandeira Tribuzi",
+    "url": "https://transitrun.com/pt/public-transit-line_T065+S%C3%83O+RAIMUNDO+%2F+BANDEIRA+TRIBUZI_31430"
+  },
+  {
+    "nome": "T066 São Raimundo / Rodoviária",
+    "url": "https://transitrun.com/pt/public-transit-line_T066+S%C3%83O+RAIMUNDO+%2F+RODOVI%C3%81RIA_31431"
+  },
+  {
+    "nome": "T067 São Raimundo / João Paulo",
+    "url": "https://transitrun.com/pt/public-transit-line_T067+S%C3%83O+RAIMUNDO+%2F+JO%C3%83O+PAULO_31432"
+  },
+  {
+    "nome": "T070 UEMA / Ipase",
+    "url": "https://transitrun.com/pt/public-transit-line_T070+UEMA+%2F+IPASE_31433"
+  },
+  {
+    "nome": "T071 Janaína - Riod / Africanos",
+    "url": "https://transitrun.com/pt/public-transit-line_T071+JANA%C3%8DNA_31434"
+  },
+  {
+    "nome": "T072 Cidade Operária 205 / São Francisco",
+    "url": "https://transitrun.com/pt/public-transit-line_T072+CIDADE+OPER%C3%81RIA+205+%2F+S%C3%83O+FRANCISCO_31435"
+  },
+  {
+    "nome": "T073 Tibiri / Terminal Praia Grande",
+    "url": "https://transitrun.com/pt/public-transit-line_T073+TIBIRI+%2F+TERMINAL+PRAIA+GRANDE_31436"
+  },
+  {
+    "nome": "T074 Vila Esperança / Rodoviária",
+    "url": "https://transitrun.com/pt/public-transit-line_T074+VILA+ESPERAN%C3%87A+%2F+RODOVI%C3%81RIA_31437"
+  },
+  {
+    "nome": "T075 José Reinaldo Tavares / Jd. América / Rodoviária",
+    "url": "https://transitrun.com/pt/public-transit-line_T075+JOS%C3%89+REINALDO+TAVARES+%2F+JD.+AM%C3%89RICA+%2F+RODOVI%C3%81RIA_31438"
+  },
+  {
+    "nome": "T076 São Raimundo / São Francisco",
+    "url": "https://transitrun.com/pt/public-transit-line_T076+S%C3%83O+RAIMUNDO+%2F+S%C3%83O+FRANCISCO_31439"
+  },
+  {
+    "nome": "T077 Cidade Olímpica - Av. 1 / São Francisco",
+    "url": "https://transitrun.com/pt/public-transit-line_T077+CIDADE+OL%C3%8DMPICA_31440"
+  },
+  {
+    "nome": "T078 Cidade Olímpica - Av. 1 / Ipase",
+    "url": "https://transitrun.com/pt/public-transit-line_T078+CIDADE+OL%C3%8DMPICA_31441"
+  },
+  {
+    "nome": "T079 Cidade Olímpica - Av. 1 / Rodoviária",
+    "url": "https://transitrun.com/pt/public-transit-line_T079+CIDADE+OL%C3%8DMPICA_31442"
+  },
+  {
+    "nome": "T081 Cohatrac / Rodoviária",
+    "url": "https://transitrun.com/pt/public-transit-line_T081+COHATRAC+%2F+RODOVI%C3%81RIA_31443"
+  },
+  {
+    "nome": "T082 Cohatrac 3 / Ipase",
+    "url": "https://transitrun.com/pt/public-transit-line_T082+COHATRAC+3+%2F+IPASE_31444"
+  },
+  {
+    "nome": "T083 Cohatrac / Bandeira Tribuzi",
+    "url": "https://transitrun.com/pt/public-transit-line_T083+COHATRAC+%2F+BANDEIRA+TRIBUZI_31445"
+  },
+  {
+    "nome": "T084 Cohatrac 4 / Terminal Praia Grande",
+    "url": "https://transitrun.com/pt/public-transit-line_T084+COHATRAC+4+%2F+TERMINAL+PRAIA+GRANDE_31446"
+  },
+  {
+    "nome": "T086 Cohatrac / São Francisco",
+    "url": "https://transitrun.com/pt/public-transit-line_T086+COHATRAC+%2F+S%C3%83O+FRANCISCO_31447"
+  },
+  {
+    "nome": "T090 Terminais / BR-135",
+    "url": "https://transitrun.com/pt/public-transit-line_T090+TERMINAIS+%2F+BR-135_31448"
+  },
+  {
+    "nome": "T091 Alvorada / Ipase",
+    "url": "https://transitrun.com/pt/public-transit-line_T091+ALVORADA+%2F+IPASE_31449"
+  },
+  {
+    "nome": "T092 Habitacional Turu",
+    "url": "https://transitrun.com/pt/public-transit-line_T092+HABITACIONAL+TURU_31450"
+  },
+  {
+    "nome": "T097 Parque Jair / João Paulo",
+    "url": "https://transitrun.com/pt/public-transit-line_T097+PARQUE+JAIR+%2F+JO%C3%83O+PAULO_31451"
+  },
+  {
+    "nome": "T207 Bairro de Fátima / Parque Amazonas",
+    "url": "https://transitrun.com/pt/public-transit-line_T207+BAIRRO+DE+F%C3%81TIMA+%2F+PARQUE+AMAZONAS_31452"
+  },
+  {
+    "nome": "T209 Parque dos Nobres / Terminal Praia Grande",
+    "url": "https://transitrun.com/pt/public-transit-line_T209+PARQUE+DOS+NOBRES+%2F+TERMINAL+PRAIA+GRANDE_31453"
+  },
+  {
+    "nome": "T215 Cohatrac (Corujão)",
+    "url": "https://transitrun.com/pt/public-transit-line_T215+COHATRAC+%28CORUJ%C3%83O%29_31454"
+  },
+  {
+    "nome": "T302 Itaqui / Terminal Praia Grande",
+    "url": "https://transitrun.com/pt/public-transit-line_T302+ITAQUI+%2F+TERMINAL+PRAIA+GRANDE_31455"
+  },
+  {
+    "nome": "T303 Anjo da Guarda / Terminal Praia Grande / Deodoro",
+    "url": "https://transitrun.com/pt/public-transit-line_T303+ANJO+DA+GUARDA+%2F+TERMINAL+PRAIA+GRANDE+%2F+DEODORO_31456"
+  },
+  {
+    "nome": "T304 Fumacê / Terminal Praia Grande / Deodoro",
+    "url": "https://transitrun.com/pt/public-transit-line_T304+FUMAC%C3%8A+%2F+TERMINAL+PRAIA+GRANDE+%2F+DEODORO_31457"
+  },
+  {
+    "nome": "T309 Vila Isabel / Terminal Praia Grande / Deodoro",
+    "url": "https://transitrun.com/pt/public-transit-line_T309+VILA+ISABEL+%2F+TERMINAL+PRAIA+GRANDE+%2F+DEODORO_31458"
+  },
+  {
+    "nome": "T310 Gancharia / Terminal Praia Grande / Deodoro",
+    "url": "https://transitrun.com/pt/public-transit-line_T310+GANCHARIA+%2F+TERMINAL+PRAIA+GRANDE+%2F+DEODORO_31459"
+  },
+  {
+    "nome": "T312 Gapara / Deodoro / Terminal Praia Grande",
+    "url": "https://transitrun.com/pt/public-transit-line_T312+GAPARA+%2F+DEODORO+%2F+TERMINAL+PRAIA+GRANDE_31460"
+  },
+  {
+    "nome": "T320 Residencial Paraíso / Bandeira Tribuzi / Renascença",
+    "url": "https://transitrun.com/pt/public-transit-line_T320+RESIDENCIAL+PARA%C3%8DSO+%2F+BANDEIRA+TRIBUZI+%2F+RENASCEN%C3%87A_31461"
+  },
+  {
+    "nome": "T324 Sol Nascente / São Mateus / Terminal Praia Grande / Deodoro",
+    "url": "https://transitrun.com/pt/public-transit-line_T324+SOL+NASCENTE+%2F+S%C3%83O+MATEUS+%2F+TERMINAL+PRAIA+GRANDE+%2F+DEODORO_31462"
+  },
+  {
+    "nome": "T325 Ilha da Paz / Vila Ariri / Terminal Praia Grande / Deodoro",
+    "url": "https://transitrun.com/pt/public-transit-line_T325+ILHA+DA+PAZ+%2F+VILA+ARIRI+%2F+TERMINAL+PRAIA+GRANDE+%2F+DEODORO_31463"
+  },
+  {
+    "nome": "T329 Maracanã / Terminal Praia Grande via Bacanga",
+    "url": "https://transitrun.com/pt/public-transit-line_T329+MARACAN%C3%83+%2F+TERMINAL+PRAIA+GRANDE+VIA+BACANGA_31464"
+  },
+  {
+    "nome": "T337 Vila Collier / Terminal Praia Grande",
+    "url": "https://transitrun.com/pt/public-transit-line_T337+VILA+COLLIER+%2F+TERMINAL+PRAIA+GRANDE_31465"
+  },
+  {
+    "nome": "T345 Santa Clara (Corujão)",
+    "url": "https://transitrun.com/pt/public-transit-line_T345+SANTA+CLARA+%28CORUJ%C3%83O%29_31466"
+  },
+  {
+    "nome": "T365 São Raimundo (Corujão)",
+    "url": "https://transitrun.com/pt/public-transit-line_T365+S%C3%83O+RAIMUNDO+%28CORUJ%C3%83O%29_31467"
+  },
+  {
+    "nome": "T403 Calhau / Litorânea",
+    "url": "https://transitrun.com/pt/public-transit-line_T403+CALHAU+%2F+LITOR%C3%82NEA_31468"
+  },
+  {
+    "nome": "T407 Calhau / Bandeira Tribuzi",
+    "url": "https://transitrun.com/pt/public-transit-line_T407+CALHAU+%2F+BANDEIRA+TRIBUZI_31469"
+  },
+  {
+    "nome": "T408 Vila Nova / Calhau",
+    "url": "https://transitrun.com/pt/public-transit-line_T408+VILA+NOVA+%2F+CALHAU_31470"
+  },
+  {
+    "nome": "T410 RAPIDÃO - Olho D'Água / Litorânea / Terminal Praia Grande",
+    "url": "https://transitrun.com/pt/public-transit-line_T410+RAPID%C3%83O_31471"
+  },
+  {
+    "nome": "T415 Vicente Fialho (Corujão)",
+    "url": "https://transitrun.com/pt/public-transit-line_T415+VICENTE+FIALHO+%28CORUJ%C3%83O%29_31472"
+  },
+  {
+    "nome": "T435 Calhau / Litorânea (Corujão)",
+    "url": "https://transitrun.com/pt/public-transit-line_T435+CALHAU+%2F+LITOR%C3%82NEA+%28CORUJ%C3%83O%29_31473"
+  },
+  {
+    "nome": "T450 RAPIDÃO - Terminal Cohama / Terminal Praia Grande",
+    "url": "https://transitrun.com/pt/public-transit-line_T450+RAPID%C3%83O_31474"
+  },
+  {
+    "nome": "T460 RAPIDÃO - Terminal São Cristóvão / Terminal Praia Grande",
+    "url": "https://transitrun.com/pt/public-transit-line_T460+RAPID%C3%83O_31475"
+  },
+  {
+    "nome": "T501 Angelim / Terminal Praia Grande",
+    "url": "https://transitrun.com/pt/public-transit-line_T501+ANGELIM+%2F+TERMINAL+PRAIA+GRANDE_31476"
+  },
+  {
+    "nome": "T504 Pão de Açúcar / Terminal Praia Grande",
+    "url": "https://transitrun.com/pt/public-transit-line_T504+P%C3%83O+DE+A%C3%87%C3%9ACAR+%2F+TERMINAL+PRAIA+GRANDE_31477"
+  },
+  {
+    "nome": "T506 Vinhais / São Francisco",
+    "url": "https://transitrun.com/pt/public-transit-line_T506+VINHAIS+%2F+S%C3%83O+FRANCISCO_31478"
+  },
+  {
+    "nome": "T551 Alto Angelim / São Francisco / Ipase",
+    "url": "https://transitrun.com/pt/public-transit-line_T551+ALTO+ANGELIM+%2F+S%C3%83O+FRANCISCO+%2F+IPASE_31479"
+  },
+  {
+    "nome": "T584 Bom Jardim / Terminal Cohama / Ipase / Shopping São Luís",
+    "url": "https://transitrun.com/pt/public-transit-line_T584+BOM+JARDIM+%2F+TERMINAL+COHAMA+%2F+IPASE+%2F+SHOPPING+S%C3%83O+LU%C3%8DS_31480"
+  },
+  {
+    "nome": "T609 Parque Timbiras / Bom Jesus",
+    "url": "https://transitrun.com/pt/public-transit-line_T609+PARQUE+TIMBIRAS+%2F+BOM+JESUS_31481"
+  },
+  {
+    "nome": "T621 Jomar Moraes / Vila dos Nobres / Terminal Praia Grande",
+    "url": "https://transitrun.com/pt/public-transit-line_T621+JOMAR+MORAES+%2F+VILA+DOS+NOBRES+%2F+TERMINAL+PRAIA+GRANDE_31482"
+  },
+  {
+    "nome": "T703 Ipem Turu / Alemanha",
+    "url": "https://transitrun.com/pt/public-transit-line_T703+IPEM+TURU+%2F+ALEMANHA_31483"
+  },
+  {
+    "nome": "T705 Sol e Mar",
+    "url": "https://transitrun.com/pt/public-transit-line_T705+SOL+E+MAR_31484"
+  },
+  {
+    "nome": "T706 Divineia / Kennedy",
+    "url": "https://transitrun.com/pt/public-transit-line_T706+DIVINEIA+%2F+KENNEDY_31485"
+  },
+  {
+    "nome": "T709 Parque Vitória / Alemanha",
+    "url": "https://transitrun.com/pt/public-transit-line_T709+PARQUE+VIT%C3%93RIA+%2F+ALEMANHA_31486"
+  },
+  {
+    "nome": "T714. Alonso Costa / Parque Araçagy / Holandeses",
+    "url": "https://transitrun.com/pt/public-transit-line_T714.+ALONSO+COSTA+%2F+PARQUE+ARA%C3%87AGY+%2F+HOLANDESES_31487"
+  },
+  {
+    "nome": "T720 Vila Luizão / Holandeses",
+    "url": "https://transitrun.com/pt/public-transit-line_T720+VILA+LUIZ%C3%83O+%2F+HOLANDESES_31488"
+  },
+  {
+    "nome": "T814 Piquizeiro / Terminal Praia Grande",
+    "url": "https://transitrun.com/pt/public-transit-line_T814+PIQUIZEIRO+%2F+TERMINAL+PRAIA+GRANDE_31489"
+  },
+  {
+    "nome": "T907 Cidade Operária / Socorrão 2 / Rodoviária",
+    "url": "https://transitrun.com/pt/public-transit-line_T907+CIDADE+OPER%C3%81RIA+%2F+SOCORR%C3%83O+2+%2F+RODOVI%C3%81RIA_31490"
+  },
+  {
+    "nome": "202 Caratatiua / Rua da Paz",
+    "url": "https://transitrun.com/pt/public-transit-line_202+CARATATIUA+%2F+RUA+DA+PAZ_31307"
+  },
+  {
+    "nome": "204 Alemanha / Deodoro",
+    "url": "https://transitrun.com/pt/public-transit-line_204+ALEMANHA+%2F+DEODORO_31308"
+  },
+  {
+    "nome": "205 Bom Milagre / Rua da Paz",
+    "url": "https://transitrun.com/pt/public-transit-line_205+BOM+MILAGRE+%2F+RUA+DA+PAZ_31309"
+  },
+  {
+    "nome": "206 Liberdade / Deodoro",
+    "url": "https://transitrun.com/pt/public-transit-line_206+LIBERDADE+%2F+DEODORO_31310"
+  },
+  {
+    "nome": "212 Vila dos Nobres / Monte Castelo",
+    "url": "https://transitrun.com/pt/public-transit-line_212+VILA+DOS+NOBRES+%2F+MONTE+CASTELO_31311"
+  },
+  {
+    "nome": "301 Sá Viana / Deodoro",
+    "url": "https://transitrun.com/pt/public-transit-line_301+S%C3%81+VIANA+%2F+DEODORO_31312"
+  },
+  {
+    "nome": "307 Alto da Esperança / Deodoro",
+    "url": "https://transitrun.com/pt/public-transit-line_307+ALTO+DA+ESPERAN%C3%87A+%2F+DEODORO_31313"
+  },
+  {
+    "nome": "314 Vila Embratel / Deodoro",
+    "url": "https://transitrun.com/pt/public-transit-line_314+VILA+EMBRATEL+%2F+DEODORO_31314"
+  },
+  {
+    "nome": "406 Altos do Calhau / São Francisco",
+    "url": "https://transitrun.com/pt/public-transit-line_406+ALTOS+DO+CALHAU+%2F+S%C3%83O+FRANCISCO_31315"
+  },
+  {
+    "nome": "604 Santo Antônio / Deodoro",
+    "url": "https://transitrun.com/pt/public-transit-line_604+SANTO+ANT%C3%94NIO+%2F+DEODORO_31316"
+  },
+  {
+    "nome": "605 Vera Cruz / Santa Cruz",
+    "url": "https://transitrun.com/pt/public-transit-line_605+VERA+CRUZ+%2F+SANTA+CRUZ_31317"
+  },
+  {
+    "nome": "607 Coheb / Cerâmica",
+    "url": "https://transitrun.com/pt/public-transit-line_607+COHEB+%2F+CER%C3%82MICA_31318"
+  },
+  {
+    "nome": "608 Vila Palmeira / Deodoro",
+    "url": "https://transitrun.com/pt/public-transit-line_608+VILA+PALMEIRA+%2F+DEODORO_31319"
+  },
+  {
+    "nome": "610 CEMA / DETRAN / João Paulo",
+    "url": "https://transitrun.com/pt/public-transit-line_610+CEMA+%2F+DETRAN+%2F+JO%C3%83O+PAULO_31320"
+  },
+  {
+    "nome": "611 Circular Radional",
+    "url": "https://transitrun.com/pt/public-transit-line_611+CIRCULAR+RADIONAL_31321"
+  },
+  {
+    "nome": "612 Coroadinho / Bom Jesus",
+    "url": "https://transitrun.com/pt/public-transit-line_612+COROADINHO+%2F+BOM+JESUS_31322"
+  },
+  {
+    "nome": "613 Coheb / Filipinho",
+    "url": "https://transitrun.com/pt/public-transit-line_613+COHEB+%2F+FILIPINHO_31323"
+  },
+  {
+    "nome": "617 Coroadinho / Vila Conceição",
+    "url": "https://transitrun.com/pt/public-transit-line_617+COROADINHO+%2F+VILA+CONCEI%C3%87%C3%83O_31324"
+  },
+  {
+    "nome": "902 Rodoviária / Alemanha",
+    "url": "https://transitrun.com/pt/public-transit-line_902+RODOVI%C3%81RIA+%2F+ALEMANHA_31325"
+  },
+  {
+    "nome": "913 Vila Lobão / Deodoro",
+    "url": "https://transitrun.com/pt/public-transit-line_913+VILA+LOB%C3%83O+%2F+DEODORO_31326"
+  }
+]

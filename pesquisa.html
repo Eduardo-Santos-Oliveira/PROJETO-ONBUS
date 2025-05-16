@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>OnBus</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="pesquisa.css"/>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1><i class="fas fa-bus"></i> OnBus</h1>
+      <p>Consulte horários e rotas do transporte público</p>
+    </div>
+
+    <div class="card">
+      <div class="search-container">
+        <div class="search-group">
+          <input type="text" id="pesquisaLinha" placeholder="Digite o nome da linha ou local..."/>
+          <button id="btnPesquisar" class="btn-primary">
+            <i class="fas fa-search"></i> Pesquisar
+          </button>
+        </div>
+      </div>
+
+      <div class="avaliacao-seguranca">
+        <button id="btnAvaliarSeguranca" class="btn-avaliar">
+          <i class="fas fa-map-marker-alt"></i> Avaliar segurança da parada atual
+        </button>
+      </div>
+
+      <div id="filtros" class="filters-container">
+        <div class="filter-group">
+          <label for="filtroLocal"><i class="fas fa-map-marker-alt"></i> Filtrar por local:</label>
+          <select id="filtroLocal">
+            <option value="">Todos os locais</option>
+          </select>
+        </div>
+      </div>
+
+      <div id="resultadoPesquisa" class="resultado-pesquisa">
+        <div class="no-results">
+          <i class="fas fa-info-circle"></i>
+          <p>Digite um termo de pesquisa ou selecione um local para encontrar linhas</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="detalhesLinhaModal" class="modal">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <div class="modal-header">
+        <h2 id="linhaTitulo"></h2>
+        <div class="linha-info">
+          <span id="linhaHorarios"></span>
+        </div>
+      </div>
+      <div class="modal-body">
+        <div class="rota-container">
+          <h3><i class="fas fa-route"></i> Rota Completa</h3>
+          <div class="rota-progress" id="rotaCompleta"></div>
+          <button id="btnVerRota" class="btn-primary" style="margin-top: 15px;">
+            <i class="fas fa-map-marked-alt"></i> Ver Rota no Google Maps
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ 
+  <div id="modalSeguranca" class="modal-seguranca">
+    <div class="modal-content">
+      <span class="close-modal-seguranca">&times;</span>
+      <div class="modal-header">
+        <h3><i class="fas fa-shield-alt"></i> Avaliação de Segurança</h3>
+        <p id="localizacaoAtual">Carregando sua localização...</p>
+      </div>
+      
+      <div class="avaliacao-container">
+        <h4>Como você avalia a segurança desta parada?</h4>
+        <div class="avaliacoes">
+          <div class="opcao-container" data-avaliacao="segura">
+            <div class="opcao-icon">👍</div>
+            <div class="opcao-label">Segura</div>
+            <div class="opcao-desc">Bem iluminada, movimento, sem ocorrências</div>
+          </div>
+          <div class="opcao-container" data-avaliacao="media">
+            <div class="opcao-icon">🤔</div>
+            <div class="opcao-label">Média</div>
+            <div class="opcao-desc">Alguns pontos de atenção</div>
+          </div>
+          <div class="opcao-container" data-avaliacao="insegura">
+            <div class="opcao-icon">⚠️</div>
+            <div class="opcao-label">Insegura</div>
+            <div class="opcao-desc">Pouco movimento, mal iluminada, ocorrências</div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="comentario-container">
+        <label for="comentarioSeguranca"><i class="fas fa-comment-dots"></i> Comentário (opcional):</label>
+        <textarea id="comentarioSeguranca" placeholder="Descreva sua experiência..."></textarea>
+      </div>
+      
+      <div class="acoes-avaliacao">
+        <button id="enviarAvaliacao" class="btn-avaliar" disabled>
+          <i class="fas fa-paper-plane"></i> Enviar Avaliação
+        </button>
+        <button id="removerAvaliacao" class="btn-remover" style="display:none;">
+          <i class="fas fa-trash-alt"></i> Remover
+        </button>
+      </div>
+      
+      <div id="feedbackAvaliacao" class="feedback-avaliacao"></div>
+      
+      <div class="avaliacao-anonima">
+        <input type="checkbox" id="avaliacaoAnonima">
+        <label for="avaliacaoAnonima">Enviar como avaliação anônima</label>
+      </div>
+    </div>
+  </div>
+
+  <div id="feedback-container"></div>
+
+  <script type="module" src="pesquisa.js"></script>
+</body>
+</html>
