@@ -149,6 +149,17 @@ app.get('/pesquisa.css', (req, res) => {
 app.listen(PORT, () => {
     console.log(`Servidor rodando em http://localhost:${PORT}`);
 });
+app.get('/login.html', (req, res) => {
+  res.sendFile(path.join(__dirname, 'login.html'));
+});
+
+app.get('/login.js', (req, res) => {
+  res.sendFile(path.join(__dirname, 'login.js'));
+});
+
+app.get('/login.css', (req, res) => {
+  res.sendFile(path.join(__dirname, 'login.css'));
+});
 
 
 // Rota de autenticação com Google
