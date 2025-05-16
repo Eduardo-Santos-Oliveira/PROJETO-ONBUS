@@ -14,10 +14,8 @@ app.use(cors());
 app.use(express.json());
 app.use(express.static('public'));
 const pool = new Pool({
-  connectionString: 'postgresql://postgres:BSOPETvfVKQPnjwehkxaBRecTGxhohuv@postgres.railway.internal:5432/railway',
-  ssl: {
-    rejectUnauthorized: false
-  }
+  connectionString: process.env.DATABASE_URL,
+  ssl: process.env.DATABASE_SSL === 'true' ? { rejectUnauthorized: false } : false
 });
 
 module.exports = pool;
