@@ -275,12 +275,14 @@ app.post('/api/auth/register', async (req, res) => {
       user: result.rows[0]
     });
   } catch (error) {
-    console.error('Erro no registro:', error);
+    console.error('Erro no registro:', error.message);
+    console.error(error.stack);
     res.status(500).json({
       success: false,
-      error: 'Erro no servidor ao registrar usuário'
-    });
-  }
+      error: error.message  // isso envia a mensagem exata do erro pro navegador
+  });
+}
+
 });
 
 // Rota de login
@@ -329,10 +331,12 @@ app.post('/api/auth/login', async (req, res) => {
       }
     });
   } catch (error) {
-    console.error('Erro no login:', error);
+    console.error('Erro no login:', error.message);
+    console.error(error.stack);
     res.status(500).json({
       success: false,
-      error: 'Erro no servidor ao fazer login'
-    });
-  }
+      error: error.message
+  });
+}
+
 });
