@@ -30,6 +30,7 @@ PROJETO-ONBUS-main/
 
 - 🔍 Pesquisa por linha de ônibus
 - 🗺️ Exibição de horários e rotas em tempo real
+- ⚠️ Avaliação de segurança da parada de ônibus
 - 📂 Interface limpa e acessível
 - 🔐 Tela de login simples para controle de acesso
 - 🌐 Backend em Node.js com API de consulta
@@ -64,7 +65,7 @@ Acesse o projeto em `http://localhost:3000`.
 - **Frontend:** HTML5, CSS3, JavaScript puro
 - **Backend:** Node.js + Express
 - **Dados:** JSON gerado via scraping com Python
-- **Deploy:** Vercel
+- **Deploy:** Railway
 
 ---
 
@@ -80,22 +81,17 @@ O script `raspador_smtu_completo.py` acessa os dados da SMTU para coletar inform
 <img src="./path/to/screenshot2.png" width="400"/>
 <img src="./path/to/screenshot3.png" width="400"/>
 
-> Substitua os caminhos das imagens pelos arquivos que você deseja exibir no repositório.
+
 
 ---
 
-## 👨‍💻 Autor
+## 👨‍💻 Autores
 
-- Nome: [Seu Nome]
-- Email: [seu@email.com]
-- GitHub: [@seu-usuario](https://github.com/seu-usuario)
-
----
-
-## 📄 Licença
-
-Este projeto está licenciado sob a Licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
+- Nome: Eduardo Oliveira - Backend
+- Email: eduardo.santos.oliveira.exe@gmail.com
+- GitHub: https://github.com/Eduardo-Santos-Oliveira
 
 ---
+
 
 🌟 **Sinta-se à vontade para contribuir, dar sugestões ou relatar bugs!**
