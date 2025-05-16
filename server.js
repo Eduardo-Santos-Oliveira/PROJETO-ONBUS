@@ -1,5 +1,9 @@
 const { OAuth2Client } = require('google-auth-library');
-const client = new OAuth2Client('1006485668370-pbnmae0bkslevk20pkjmh4mgg7o1trj2.apps.googleusercontent.com');
+const client = new OAuth2Client(
+  '1006485668370-pbnmae0bkslevk20pkjmh4mgg7o1trj2.apps.googleusercontent.com',
+  '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',
+  'https://tk978qjj.up.railway.app/api/auth/google/callback'
+);
 const jwt = require('jsonwebtoken');
 const SECRET_KEY = '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';
 
@@ -190,10 +194,8 @@ app.post('/api/auth/google', async (req, res) => {
       { expiresIn: '1h' }
     );
     
-    // Retorna o token para redirecionamento
     res.json({ 
       success: true, 
-      redirect_uri: `http://localhost:3000/api/auth/google/callback?token=${encodeURIComponent(token)}`,
       user,
       token
     });
