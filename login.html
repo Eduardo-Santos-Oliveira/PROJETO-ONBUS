@@ -7,7 +7,6 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="login.css">
-  <script src="https://accounts.google.com/gsi/client" async defer></script>
 </head>
 <body>
   <div class="login-container">
@@ -18,25 +17,40 @@
       </div>
       
       <div class="login-content">
-        <p>Faça login com sua conta Google para avaliar paradas</p>
+        <p>Faça login para avaliar paradas</p>
         
-        
-        <div id="g_id_onload"
-             data-client_id="1006485668370-pbnmae0bkslevk20pkjmh4mgg7o1trj2.apps.googleusercontent.com"
-             data-context="signin"
-             data-ux_mode="popup"
-             data-callback="handleGoogleSignIn"
-             data-auto_prompt="false">
+        <form id="loginForm">
+          <div class="form-group">
+            <input type="email" id="email" placeholder="Email" required>
+          </div>
+          <div class="form-group">
+            <input type="password" id="password" placeholder="Senha" required>
+          </div>
+          <button type="submit" class="login-button">Entrar</button>
+        </form>
+
+        <div class="register-link">
+          Não tem uma conta? <a href="#" id="showRegister">Cadastre-se</a>
         </div>
 
-        <div class="g_id_signin"
-             data-type="standard"
-             data-shape="rectangular"
-             data-theme="outline"
-             data-text="signin_with"
-             data-size="large"
-             data-logo_alignment="left">
-        </div>
+        <form id="registerForm" style="display: none;">
+          <div class="form-group">
+            <input type="text" id="regName" placeholder="Nome completo" required>
+          </div>
+          <div class="form-group">
+            <input type="email" id="regEmail" placeholder="Email" required>
+          </div>
+          <div class="form-group">
+            <input type="password" id="regPassword" placeholder="Senha" required>
+          </div>
+          <div class="form-group">
+            <input type="password" id="regConfirmPassword" placeholder="Confirmar senha" required>
+          </div>
+          <button type="submit" class="register-button">Cadastrar</button>
+          <div class="login-link">
+            Já tem uma conta? <a href="#" id="showLogin">Faça login</a>
+          </div>
+        </form>
       </div>
     </div>
   </div>

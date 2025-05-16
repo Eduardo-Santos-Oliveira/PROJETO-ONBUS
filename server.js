@@ -1,11 +1,9 @@
 const { OAuth2Client } = require('google-auth-library');
-const client = new OAuth2Client(
-  '1006485668370-pbnmae0bkslevk20pkjmh4mgg7o1trj2.apps.googleusercontent.com',
-  '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',
-  'https://tk978qjj.up.railway.app/api/auth/google/callback'
-);
+const client = new OAuth2Client('1006485668370-pbnmae0bkslevk20pkjmh4mgg7o1trj2.apps.googleusercontent.com');
 const jwt = require('jsonwebtoken');
 const SECRET_KEY = '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';
+const bcrypt = require('bcrypt');
+const saltRounds = 10;
 
 const express = require('express');
 const fs = require('fs');
@@ -194,8 +192,10 @@ app.post('/api/auth/google', async (req, res) => {
       { expiresIn: '1h' }
     );
     
+    // Retorna o token para redirecionamento
     res.json({ 
       success: true, 
+      redirect_uri: `http://localhost:3000/api/auth/google/callback?token=${encodeURIComponent(token)}`,
       user,
       token
     });
@@ -242,3 +242,98 @@ app.get('/api/auth/google/callback', (req, res) => {
   res.redirect(`/pesquisa.html?token=${encodeURIComponent(token)}`);
 });
 
+app.post('/api/auth/register', async (req, res) => {
+  const { name, email, password } = req.body;
+
+  try {
+    // Verifica se o email já está cadastrado
+    const userExists = await pool.query(
+      'SELECT * FROM usuarios WHERE email = $1',
+      [email]
+    );
+
+    if (userExists.rows.length > 0) {
+      return res.status(400).json({
+        success: false,
+        error: 'Email já cadastrado'
+      });
+    }
+
+    // Hash da senha
+    const hashedPassword = await bcrypt.hash(password, saltRounds);
+
+    // Insere o novo usuário
+    const result = await pool.query(
+      `INSERT INTO usuarios (nome, email, senha, data_criacao) 
+       VALUES ($1, $2, $3, NOW()) 
+       RETURNING id, nome, email, foto_url`,
+      [name, email, hashedPassword]
+    );
+
+    res.json({
+      success: true,
+      user: result.rows[0]
+    });
+  } catch (error) {
+    console.error('Erro no registro:', error);
+    res.status(500).json({
+      success: false,
+      error: 'Erro no servidor ao registrar usuário'
+    });
+  }
+});
+
+// Rota de login
+app.post('/api/auth/login', async (req, res) => {
+  const { email, password } = req.body;
+
+  try {
+    // Busca o usuário pelo email
+    const result = await pool.query(
+      'SELECT * FROM usuarios WHERE email = $1',
+      [email]
+    );
+
+    if (result.rows.length === 0) {
+      return res.status(401).json({
+        success: false,
+        error: 'Email ou senha incorretos'
+      });
+    }
+
+    const user = result.rows[0];
+
+    // Verifica a senha
+    const passwordMatch = await bcrypt.compare(password, user.senha);
+    if (!passwordMatch) {
+      return res.status(401).json({
+        success: false,
+        error: 'Email ou senha incorretos'
+      });
+    }
+
+    // Cria o token JWT
+    const token = jwt.sign(
+      { userId: user.id, email: user.email },
+      SECRET_KEY,
+      { expiresIn: '1h' }
+    );
+
+    res.json({
+      success: true,
+      token,
+      user: {
+        id: user.id,
+        name: user.nome,
+        email: user.email,
+        picture: user.foto_url
+      }
+    });
+  } catch (error) {
+    console.error('Erro no login:', error);
+    res.status(500).json({
+      success: false,
+      error: 'Erro no servidor ao fazer login'
+    });
+  }
+});

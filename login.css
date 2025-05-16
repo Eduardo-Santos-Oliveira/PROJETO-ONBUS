@@ -50,26 +50,63 @@ body {
   margin-bottom: 25px;
 }
 
-.g_id_signin {
-  margin: 0 auto;
-  width: fit-content;
+.form-group {
+  margin-bottom: 15px;
 }
 
-@media (max-width: 600px) {
-  .login-card {
-    padding: 30px 20px;
-  }
-  
-  .logo i {
-    font-size: 2.5rem;
-  }
-  
-  .logo h1 {
-    font-size: 1.5rem;
-  }
+.form-group input {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
 }
 
+.form-group input:focus {
+  border-color: #3498db;
+  outline: none;
+}
 
+.login-button, .register-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-button:hover, .register-button:hover {
+  background-color: #2980b9;
+}
+
+.register-link, .login-link {
+  margin-top: 15px;
+  text-align: center;
+  color: #7f8c8d;
+}
+
+.register-link a, .login-link a {
+  color: #3498db;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.register-link a:hover, .login-link a:hover {
+  text-decoration: underline;
+}
+
+#loginForm {
+  display: block;
+}
+
+#registerForm {
+  display: none;
+}
 
 .loading {
   display: flex;
@@ -94,6 +131,31 @@ body {
   margin: 15px 0;
 }
 
-.error-message i {
+.success-message {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 15px;
+  background-color: #d4edda;
+  border-radius: 8px;
+  color: #155724;
+  margin: 15px 0;
+}
+
+.error-message i, .success-message i {
   font-size: 1.2rem;
+}
+
+@media (max-width: 600px) {
+  .login-card {
+    padding: 30px 20px;
+  }
+  
+  .logo i {
+    font-size: 2.5rem;
+  }
+  
+  .logo h1 {
+    font-size: 1.5rem;
+  }
 }
