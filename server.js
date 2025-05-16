@@ -13,20 +13,11 @@ const PORT = process.env.PORT || 3000;
 app.use(cors());
 app.use(express.json());
 app.use(express.static('public'));
-const pool = new Pool(
-  process.env.DATABASE_URL
-    ? {
-        connectionString: process.env.DATABASE_URL,
-        ssl: { rejectUnauthorized: false },
-      }
-    : {
-        user: 'pesquisa',
-        host: 'localhost',
-        database: 'pesquisa',
-        password: '123',
-        port: 5432,
-      }
-);
+const pool = new Pool({
+  connectionString: process.env.DATABASE_URL,
+  ssl: { rejectUnauthorized: false }
+});
+
 let linhasData = [];
 try {
     const jsonPath = path.join(__dirname, 'linhas_com_horarios_e_rotas.json');
