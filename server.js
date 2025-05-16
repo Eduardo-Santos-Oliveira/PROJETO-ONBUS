@@ -266,7 +266,7 @@ app.post('/api/auth/register', async (req, res) => {
     const result = await pool.query(
       `INSERT INTO usuarios (nome, email, senha, data_criacao) 
        VALUES ($1, $2, $3, NOW()) 
-       RETURNING id, nome, email, foto_url`,
+       RETURNING id, nome, email`,
       [name, email, hashedPassword]
     );
 
@@ -325,8 +325,7 @@ app.post('/api/auth/login', async (req, res) => {
       user: {
         id: user.id,
         name: user.nome,
-        email: user.email,
-        picture: user.foto_url
+        email: user.email
       }
     });
   } catch (error) {
