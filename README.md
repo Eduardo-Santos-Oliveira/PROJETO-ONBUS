@@ -19,7 +19,6 @@ PROJETO-ONBUS-main/
 ├── linhas_com_horarios_e_rotas.json  # Horários e rotas completas
 ├── raspador_smtu_completo.py         # Raspador de dados da SMTU
 ├── server.js            # Backend com Node.js/Express
-├── vercel.json          # Configuração para deploy na Vercel
 ├── package.json         # Dependências do Node.js
 └── package-lock.json    # Versões exatas das dependências
 ```
