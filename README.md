@@ -92,6 +92,7 @@ O script `raspador_smtu_completo.py` acessa os dados da SMTU para coletar inform
   <img src="https://github.com/user-attachments/assets/abb1c59c-e2a4-4c9d-a40b-f8c030010c11" width="300px" />
   <img src="https://github.com/user-attachments/assets/78d608f1-85f7-4c4d-b600-e1c04afd0b63" width="300px" />
   <img src="https://github.com/user-attachments/assets/689ac63d-256e-4d34-8cde-ff6ecd2a5727" width="300px" />
+  <img src="https://github.com/user-attachments/assets/cd030886-4fb2-482a-94f9-4a43225283ed" width="300px" />
 </div>
 
 
