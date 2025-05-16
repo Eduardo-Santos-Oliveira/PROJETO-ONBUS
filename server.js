@@ -1,10 +1,8 @@
 const { OAuth2Client } = require('google-auth-library');
 const client = new OAuth2Client('1006485668370-pbnmae0bkslevk20pkjmh4mgg7o1trj2.apps.googleusercontent.com');
 const jwt = require('jsonwebtoken');
-const SECRET_KEY = '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';
 const bcrypt = require('bcrypt');
 const saltRounds = 10;
-
 const express = require('express');
 const fs = require('fs');
 const path = require('path');
@@ -15,20 +13,15 @@ const PORT = 3000;
 app.use(cors());
 app.use(express.json());
 app.use(express.static('public'));
-const pool = new Pool(
-  process.env.DATABASE_URL
-    ? {
-        connectionString: process.env.DATABASE_URL,
-        ssl: { rejectUnauthorized: false },
-      }
-    : {
-        user: 'pesquisa',
-        host: 'localhost',
-        database: 'pesquisa',
-        password: '123',
-        port: 5432,
-      }
-);
+const pool = new Pool({
+  connectionString: 'postgresql://postgres:BSOPETvfVKQPnjwehkxaBRecTGxhohuv@postgres.railway.internal:5432/railway',
+  ssl: {
+    rejectUnauthorized: false
+  }
+});
+
+module.exports = pool;
+
 let linhasData = [];
 try {
     const jsonPath = path.join(__dirname, 'linhas_com_horarios_e_rotas.json');
