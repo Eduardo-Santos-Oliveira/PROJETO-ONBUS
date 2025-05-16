@@ -10,7 +10,7 @@ const cors = require('cors');
 const { Pool } = require('pg');
 const app = express();
 const PORT = 3000;
-const SECRET_KEY = 'minha_chave_super_secreta'; // ou qualquer string segura
+const SECRET_KEY = 'minha_chave_super_secreta';
 require('dotenv').config();
 app.use(cors());
 app.use(express.json());
@@ -19,7 +19,7 @@ app.use(express.static('public'));
 const pool = new Pool({
   connectionString: process.env.DATABASE_URL,
   ssl: {
-    rejectUnauthorized: false, // Railway exige isso para conexões externas
+    rejectUnauthorized: false, 
   },
 });
 module.exports = pool;
@@ -131,7 +131,7 @@ app.post('/api/avaliacoes/proximas', async (req, res) => {
         res.status(500).json({ success: false, error: 'Erro ao buscar avaliações próximas' });
     }
 });
-// Servir pesquisa.html e arquivos estáticos manualmente
+
 app.get('/pesquisa.html', (req, res) => {
   res.sendFile(path.resolve(__dirname, 'pesquisa.html'));
 });
@@ -162,8 +162,6 @@ app.listen(PORT, () => {
 });
 
 
-// Rota de autenticação com Google
-// Rota de autenticação com Google (ATUALIZADA)
 app.post('/api/auth/google', async (req, res) => {
   const { id_token } = req.body;
   
@@ -188,7 +186,7 @@ app.post('/api/auth/google', async (req, res) => {
       { expiresIn: '1h' }
     );
     
-    // Retorna o token para redirecionamento
+    
     res.json({ 
       success: true, 
       redirect_uri: `http://localhost:3000/api/auth/google/callback?token=${encodeURIComponent(token)}`,
@@ -205,7 +203,7 @@ app.post('/api/auth/google', async (req, res) => {
   }
 });
 
-// Middleware para verificar autenticação
+
 function authenticateToken(req, res, next) {
   const authHeader = req.headers['authorization'];
   const token = authHeader && authHeader.split(' ')[1];
@@ -219,22 +217,20 @@ function authenticateToken(req, res, next) {
   });
 }
 
-// Rota protegida de exemplo
+
 app.get('/api/protegida', authenticateToken, (req, res) => {
   res.json({ message: 'Rota protegida acessada com sucesso!' });
 });
 
-// Rota de callback para o Google Sign-In
-// Rota de callback para o Google Sign-In (ATUALIZADA)
+
 app.get('/api/auth/google/callback', (req, res) => {
-  // Extrai o token da URL
+  
   const token = req.query.token;
   
   if (!token) {
     return res.status(400).send('Token não encontrado');
   }
 
-  // Redireciona com o token como parâmetro
   res.redirect(`/pesquisa.html?token=${encodeURIComponent(token)}`);
 });
 
@@ -242,7 +238,7 @@ app.post('/api/auth/register', async (req, res) => {
   const { name, email, password } = req.body;
 
   try {
-    // Verifica se o email já está cadastrado
+    
     const userExists = await pool.query(
       'SELECT * FROM usuarios WHERE email = $1',
       [email]
@@ -255,10 +251,9 @@ app.post('/api/auth/register', async (req, res) => {
       });
     }
 
-    // Hash da senha
+    
     const hashedPassword = await bcrypt.hash(password, saltRounds);
 
-    // Insere o novo usuário
     const result = await pool.query(
       `INSERT INTO usuarios (nome, email, senha, data_criacao) 
        VALUES ($1, $2, $3, NOW()) 
@@ -283,12 +278,12 @@ app.post('/api/auth/register', async (req, res) => {
 
 });
 
-// Rota de login
+
 app.post('/api/auth/login', async (req, res) => {
   const { email, password } = req.body;
 
   try {
-    // Busca o usuário pelo email
+    
     const result = await pool.query(
       'SELECT * FROM usuarios WHERE email = $1',
       [email]
@@ -303,7 +298,7 @@ app.post('/api/auth/login', async (req, res) => {
 
     const user = result.rows[0];
 
-    // Verifica a senha
+    
     const passwordMatch = await bcrypt.compare(password, user.senha);
     if (!passwordMatch) {
       return res.status(401).json({
@@ -312,7 +307,6 @@ app.post('/api/auth/login', async (req, res) => {
       });
     }
 
-    // Cria o token JWT
     const token = jwt.sign(
       { userId: user.id, email: user.email },
       SECRET_KEY,
