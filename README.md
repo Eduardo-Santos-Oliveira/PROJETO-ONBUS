@@ -105,7 +105,7 @@ O script `raspador_smtu_completo.py` acessa os dados da SMTU para coletar inform
 - Email: eduardo.santos.oliveira.exe@gmail.com
 - GitHub: https://github.com/Eduardo-Santos-Oliveira
 - Função: Back-End
-
+---
 - Nome: Susiane Moreira
 - Email: susianemoreira@gmail.com
 - GitHub: https://github.com/susianemoreira007
