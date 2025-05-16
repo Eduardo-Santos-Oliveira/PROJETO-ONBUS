@@ -9,15 +9,24 @@ const path = require('path');
 const cors = require('cors');
 const { Pool } = require('pg');
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = 3000;
 app.use(cors());
 app.use(express.json());
 app.use(express.static('public'));
-const pool = new Pool({
-  connectionString: process.env.DATABASE_URL,
-  ssl: { rejectUnauthorized: false }
-});
-
+const pool = new Pool(
+  process.env.DATABASE_URL
+    ? {
+        connectionString: process.env.DATABASE_URL,
+        ssl: { rejectUnauthorized: false },
+      }
+    : {
+        user: 'pesquisa',
+        host: 'localhost',
+        database: 'pesquisa',
+        password: '123',
+        port: 5432,
+      }
+);
 let linhasData = [];
 try {
     const jsonPath = path.join(__dirname, 'linhas_com_horarios_e_rotas.json');
@@ -137,9 +146,6 @@ app.get('/pesquisa.css', (req, res) => {
   res.sendFile(path.resolve(__dirname, 'pesquisa.css'));
 });
 
-app.listen(PORT, () => {
-    console.log(`Servidor rodando em http://localhost:${PORT}`);
-});
 app.get('/login.html', (req, res) => {
   res.sendFile(path.join(__dirname, 'login.html'));
 });
@@ -153,48 +159,50 @@ app.get('/login.css', (req, res) => {
 });
 
 
+app.listen(PORT, () => {
+    console.log(`Servidor rodando em http://localhost:${PORT}`);
+});
+
+
 // Rota de autenticação com Google
 // Rota de autenticação com Google (ATUALIZADA)
 app.post('/api/auth/google', async (req, res) => {
   const { id_token } = req.body;
-
+  
   try {
     const ticket = await client.verifyIdToken({
       idToken: id_token,
       audience: '1006485668370-pbnmae0bkslevk20pkjmh4mgg7o1trj2.apps.googleusercontent.com'
     });
-
+    
     const payload = ticket.getPayload();
-
+    
     const user = {
       googleId: payload.sub,
       name: payload.name,
       email: payload.email,
       picture: payload.picture
     };
-
+    
     const token = jwt.sign(
       { userId: user.googleId, email: user.email },
       SECRET_KEY,
       { expiresIn: '1h' }
     );
-
-    // Use baseUrl da variável de ambiente, com fallback para localhost
-    const baseUrl = process.env.BASE_URL || 'http://localhost:3000';
-
-    // Retorna o token e redirect_uri corretamente
-    res.json({
-      success: true,
-      redirect_uri: `${baseUrl}/api/auth/google/callback?token=${encodeURIComponent(token)}`,
+    
+    // Retorna o token para redirecionamento
+    res.json({ 
+      success: true, 
+      redirect_uri: `http://localhost:3000/api/auth/google/callback?token=${encodeURIComponent(token)}`,
       user,
       token
     });
-
+    
   } catch (error) {
     console.error('Erro na autenticação:', error);
-    res.status(401).json({
-      success: false,
-      error: 'Falha na autenticação'
+    res.status(401).json({ 
+      success: false, 
+      error: 'Falha na autenticação' 
     });
   }
 });
