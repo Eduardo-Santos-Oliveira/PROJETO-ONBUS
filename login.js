@@ -11,7 +11,7 @@ async function verificarLoginValido() {
     const user = JSON.parse(userData);
     if (!user.token) return;
 
-    // Verifica no servidor se o token ainda é válido
+    
     const response = await fetch('/api/protegida', {
       method: 'GET',
       headers: {
@@ -31,33 +31,31 @@ async function verificarLoginValido() {
 }
 
 
-  // Elementos do DOM
+  
   const loginForm = document.getElementById('loginForm');
   const registerForm = document.getElementById('registerForm');
   const showRegister = document.getElementById('showRegister');
   const showLogin = document.getElementById('showLogin');
 
-  // Mostrar formulário de cadastro
   showRegister.addEventListener('click', function(e) {
     e.preventDefault();
     loginForm.style.display = 'none';
     registerForm.style.display = 'block';
   });
 
-  // Mostrar formulário de login
+  
   showLogin.addEventListener('click', function(e) {
     e.preventDefault();
     registerForm.style.display = 'none';
     loginForm.style.display = 'block';
   });
 
-  // Manipulador de login
+  
   loginForm.addEventListener('submit', function(e) {
     e.preventDefault();
     handleLogin();
   });
 
-  // Manipulador de cadastro
   registerForm.addEventListener('submit', function(e) {
     e.preventDefault();
     handleRegister();
@@ -69,7 +67,6 @@ async function handleLogin() {
   const password = document.getElementById('password').value;
   const loginContent = document.querySelector('.login-content');
   
-  // Mostrar loading
   const loading = document.createElement('div');
   loading.className = 'loading';
   loading.innerHTML = '<i class="fas fa-spinner fa-spin"></i> <span>Autenticando...</span>';
@@ -90,7 +87,6 @@ async function handleLogin() {
       throw new Error(data.error || 'Erro na autenticação');
     }
 
-    // Salva os dados do usuário e redireciona
     localStorage.setItem('user', JSON.stringify({
       id: data.user.id,
       name: data.user.name,
@@ -113,7 +109,7 @@ async function handleRegister() {
   const password = document.getElementById('regPassword').value;
   const confirmPassword = document.getElementById('regConfirmPassword').value;
   
-  // Validação básica
+ 
   if (password !== confirmPassword) {
     showError('As senhas não coincidem');
     return;
@@ -140,7 +136,6 @@ async function handleRegister() {
       throw new Error(data.error || 'Erro no cadastro');
     }
 
-    // Mostra mensagem de sucesso e volta para o login
     showSuccess('Conta criada com sucesso! Faça login.');
     document.getElementById('registerForm').style.display = 'none';
     document.getElementById('loginForm').style.display = 'block';
@@ -159,7 +154,6 @@ async function handleRegister() {
 function showError(message) {
   const loginContent = document.querySelector('.login-content');
   
-  // Remove mensagens anteriores
   const oldError = loginContent.querySelector('.error-message');
   if (oldError) oldError.remove();
   
@@ -176,7 +170,6 @@ function showError(message) {
 function showSuccess(message) {
   const loginContent = document.querySelector('.login-content');
   
-  // Remove mensagens anteriores
   const oldSuccess = loginContent.querySelector('.success-message');
   if (oldSuccess) oldSuccess.remove();
   
