@@ -17,14 +17,11 @@ app.use(express.json());
 app.use(express.static('public'));
 
 const pool = new Pool({
-  host: process.env.PGHOST || 'postgres.railway.internal',
-  port: process.env.PGPORT || 5432,
-  user: process.env.POSTGRES_USER || 'postgres',
-  password: process.env.POSTGRES_PASSWORD,
-  database: process.env.POSTGRES_DB || 'railway',
-  ssl: false // Desative SSL para conexão interna no Railway
+  connectionString: process.env.DATABASE_URL,
+  ssl: {
+    rejectUnauthorized: false, // Railway exige isso para conexões externas
+  },
 });
-
 module.exports = pool;
 
 
