@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
   // Verifica se já está logado
- verificarLoginValido();
+ //verificarLoginValido();
 
 async function verificarLoginValido() {
   const userData = localStorage.getItem('user');
